@@ -1,0 +1,47 @@
+@import './variable.scss';
+
+.ant-layout {
+  background: #fff !important;
+}
+
+.home-layout {
+
+  main {
+    margin-top: 64px;
+    // background: #000;
+    padding: 0 !important;
+
+    .all-layout-content {
+      min-height: calc(100vh - 134px);
+      background: $-main-bgColor;
+      margin: 0 auto;
+      width: 90%;
+      padding: 10px 20px !important;
+      max-width: 1200px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px 6px rgb(7 17 27 / 5%);
+    }
+  }
+
+  .ant-layout-footer {
+    background: transparent;
+  }
+}
+
+
+//媒体查询
+@media only screen and (min-width: 993px) {
+  .all-layout-content {
+    width: 90%;
+    max-width: 1120px;
+  }
+}
+
+.icon-common {
+  font-size: 18px;
+  color: #a4a4a4;
+}
+
+.button-group {
+  border: none !important;
+}

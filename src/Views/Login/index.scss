@@ -1,0 +1,41 @@
+.login-content {
+  background: url('../../assets/imgs/bg.jpeg');
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .from-container {
+    background: rgba($color: #000000, $alpha: .2);
+    padding: 20px;
+    box-shadow: 0 0 30px 1px;
+
+    .from-content {
+      color: #fff;
+
+      label {
+        color: #fff;
+      }
+
+      .ant-btn {
+        width: 100%;
+      }
+
+      .regis-user {
+        display: flex;
+        justify-content: end;
+        cursor: pointer;
+        margin-bottom: 8px;
+      }
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
